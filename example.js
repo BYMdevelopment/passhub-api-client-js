@@ -1,4 +1,4 @@
-const passHubApi = require('passhub-api');
+const passHubApi = require('sightseeingtech-passhub-api');
 
 let defaultClient = passHubApi.ApiClient.instance;
 // It's important to connect write host for lib

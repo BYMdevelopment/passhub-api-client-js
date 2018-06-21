@@ -1,4 +1,4 @@
-# passhub-api
+# sightseeingtech-passhub-api
 
 Access PassHub with Javascript. This module offers high level and low level calls to the API.
 
@@ -14,7 +14,7 @@ please follow the procedure in ["Publishing npm packages"](https://docs.npmjs.co
 Then install it via:
 
 ```shell
-npm install passhub-api --save
+npm install sightseeingtech-passhub-api --save
 ```
 
 ##### Local development
@@ -78,7 +78,7 @@ module: {
 Please follow the [installation](#installation) instruction and execute the following JS code:
 
 ```javascript
-const passHubApi = require('passhub-api');
+const passHubApi = require('sightseeingtech-passhub-api');
 
 let defaultClient = passHubApi.ApiClient.instance;
 // It's important to connect write host for lib
