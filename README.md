@@ -32,13 +32,13 @@ Next, [link](https://docs.npmjs.com/cli/link) it globally in npm with the follow
 npm link
 ```
 
-Finally, switch to the directory you want to use your voucherhub_api from, and run:
+Finally, switch to the directory you want to use your sightseeingtech-passhub-api from, and run:
 
 ```shell
 npm link /path/to/<JAVASCRIPT_CLIENT_DIR>
 ```
 
-You should now be able to `require('passhub-api')` in javascript files from the directory you ran the last 
+You should now be able to `require('sightseeingtech-passhub-api')` in javascript files from the directory you ran the last 
 command above from.
 
 
